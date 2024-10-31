@@ -1,0 +1,2458 @@
+[
+  {
+    "id": -1461508848,
+    "name": "rifle.ak",
+    "displayName": "Assault Rifle",
+    "category": "Weapon",
+    "rarity": "VeryRare",
+    "stackable": 1
+  },
+  {
+    "id": 2115555558,
+    "name": "ammo.handmade.shell",
+    "displayName": "Handmade Shell",
+    "category": "Ammunition",
+    "rarity": "Common",
+    "stackable": 150
+  },
+  {
+    "id": -533875561,
+    "name": "ammo.pistol",
+    "displayName": "Pistol Bullet",
+    "category": "Ammunition",
+    "rarity": "Uncommon",
+    "stackable": 1500
+  },
+  {
+    "id": 1621541165,
+    "name": "ammo.pistol.fire",
+    "displayName": "Incendiary Pistol Bullet",
+    "category": "Ammunition",
+    "rarity": "VeryRare",
+    "stackable": 1500
+  },
+  {
+    "id": -422893115,
+    "name": "ammo.pistol.hv",
+    "displayName": "HV Pistol Ammo",
+    "category": "Ammunition",
+    "rarity": "VeryRare",
+    "stackable": 1500
+  },
+  {
+    "id": 815896488,
+    "name": "ammo.rifle",
+    "displayName": "5.56 Rifle Ammo",
+    "category": "Ammunition",
+    "rarity": "Rare",
+    "stackable": 1500
+  },
+  {
+    "id": 805088543,
+    "name": "ammo.rifle.explosive",
+    "displayName": "Explosive 5.56 Rifle Ammo",
+    "category": "Ammunition",
+    "rarity": "VeryRare",
+    "stackable": 1500
+  },
+  {
+    "id": 449771810,
+    "name": "ammo.rifle.incendiary",
+    "displayName": "Incendiary 5.56 Rifle Ammo",
+    "category": "Ammunition",
+    "rarity": "VeryRare",
+    "stackable": 1500
+  },
+  {
+    "id": 1152393492,
+    "name": "ammo.rifle.hv",
+    "displayName": "HV 5.56 Rifle Ammo",
+    "category": "Ammunition",
+    "rarity": "VeryRare",
+    "stackable": 1500
+  },
+  {
+    "id": 1578894260,
+    "name": "ammo.rocket.basic",
+    "displayName": "Rocket",
+    "category": "Ammunition",
+    "rarity": "Uncommon",
+    "stackable": 1500
+  },
+  {
+    "id": 1436532208,
+    "name": "ammo.rocket.fire",
+    "displayName": "Incendiary Rocket",
+    "category": "Ammunition",
+    "rarity": "Rare",
+    "stackable": 1500
+  },
+  {
+    "id": 542276424,
+    "name": "ammo.rocket.hv",
+    "displayName": "High Velocity Rocket",
+    "category": "Ammunition",
+    "rarity": "Rare",
+    "stackable": 1500
+  },
+  {
+    "id": 1594947829,
+    "name": "ammo.rocket.smoke",
+    "displayName": "Smoke Rocket WIP!!!!",
+    "category": "Ammunition",
+    "rarity": "None",
+    "stackable": 50
+  },
+  {
+    "id": -1035059994,
+    "name": "ammo.shotgun",
+    "displayName": "12 Gauge Buckshot",
+    "category": "Ammunition",
+    "rarity": "Uncommon",
+    "stackable": 1500
+  },
+  {
+    "id": 1819281075,
+    "name": "ammo.shotgun.slug",
+    "displayName": "12 Gauge Slug",
+    "category": "Ammunition",
+    "rarity": "Uncommon",
+    "stackable": 1500
+  },
+  {
+    "id": 1685058759,
+    "name": "antiradpills",
+    "displayName": "Anti-Radiation Pills",
+    "category": "Medical",
+    "rarity": "Common",
+    "stackable": 100
+  },
+  {
+    "id": 93029210,
+    "name": "apple",
+    "displayName": "Apple",
+    "category": "Food",
+    "rarity": "Common",
+    "stackable": 1000
+  },
+  {
+    "id": -1565095136,
+    "name": "apple.spoiled",
+    "displayName": "Rotten Apple",
+    "category": "Food",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -1280058093,
+    "name": "arrow.hv",
+    "displayName": "High Velocity Arrow",
+    "category": "Ammunition",
+    "rarity": "Common",
+    "stackable": 1500
+  },
+  {
+    "id": -420273765,
+    "name": "arrow.wooden",
+    "displayName": "Wooden Arrow",
+    "category": "Ammunition",
+    "rarity": "Common",
+    "stackable": 100
+  },
+  {
+    "id": 563023711,
+    "name": "autoturret",
+    "displayName": "Auto Turret",
+    "category": "Traps",
+    "rarity": "None",
+    "stackable": 100
+  },
+  {
+    "id": 790921853,
+    "name": "axe.salvaged",
+    "displayName": "Salvaged Axe",
+    "category": "Tool",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": -337261910,
+    "name": "bandage",
+    "displayName": "Bandage",
+    "category": "Medical",
+    "rarity": "Common",
+    "stackable": 1000
+  },
+  {
+    "id": 498312426,
+    "name": "barricade.concrete",
+    "displayName": "Concrete Barricade",
+    "category": "Construction",
+    "rarity": "Common",
+    "stackable": 100
+  },
+  {
+    "id": 504904386,
+    "name": "barricade.metal",
+    "displayName": "Metal Barricade",
+    "category": "Construction",
+    "rarity": "Rare",
+    "stackable": 100
+  },
+  {
+    "id": -1221200300,
+    "name": "barricade.sandbags",
+    "displayName": "Sandbag Barricade",
+    "category": "Construction",
+    "rarity": "Common",
+    "stackable": 1000
+  },
+  {
+    "id": 510887968,
+    "name": "barricade.stone",
+    "displayName": "Stone Barricade",
+    "category": "Construction",
+    "rarity": "Common",
+    "stackable": 100
+  },
+  {
+    "id": -814689390,
+    "name": "barricade.wood",
+    "displayName": "Wooden Barricade",
+    "category": "Construction",
+    "rarity": "Common",
+    "stackable": 100
+  },
+  {
+    "id": 1024486167,
+    "name": "barricade.woodwire",
+    "displayName": "Barbed Wooden Barricade",
+    "category": "Construction",
+    "rarity": "Uncommon",
+    "stackable": 100
+  },
+  {
+    "id": 2021568998,
+    "name": "battery.small",
+    "displayName": "Battery - Small",
+    "category": "Resources",
+    "rarity": "None",
+    "stackable": 1
+  },
+  {
+    "id": 1046072789,
+    "name": "trap.bear",
+    "displayName": "Snap Trap",
+    "category": "Traps",
+    "rarity": "None",
+    "stackable": 100
+  },
+  {
+    "id": 97409,
+    "name": "bed",
+    "displayName": "Bed",
+    "category": "Items",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 1611480185,
+    "name": "black.raspberries",
+    "displayName": "Black Raspberries",
+    "category": "Food",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -1386464949,
+    "name": "bleach",
+    "displayName": "Bleach",
+    "category": "Component",
+    "rarity": "None",
+    "stackable": 5000
+  },
+  {
+    "id": 93832698,
+    "name": "blood",
+    "displayName": "Blood",
+    "category": "Medical",
+    "rarity": "None",
+    "stackable": 1000
+  },
+  {
+    "id": -1063412582,
+    "name": "blueberries",
+    "displayName": "Blueberries",
+    "category": "Food",
+    "rarity": "Uncommon",
+    "stackable": 2000
+  },
+  {
+    "id": -1887162396,
+    "name": "blueprintbase",
+    "displayName": "Blueprint",
+    "category": "Misc",
+    "rarity": "None",
+    "stackable": 1000
+  },
+  {
+    "id": -55660037,
+    "name": "rifle.bolt",
+    "displayName": "Bolt Action Rifle",
+    "category": "Weapon",
+    "rarity": "VeryRare",
+    "stackable": 1
+  },
+  {
+    "id": 919780768,
+    "name": "bone.club",
+    "displayName": "Bone Club",
+    "category": "Weapon",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": -365801095,
+    "name": "bone.fragments",
+    "displayName": "Bone Fragments",
+    "category": "Resources",
+    "rarity": "Common",
+    "stackable": 50000000
+  },
+  {
+    "id": 68998734,
+    "name": "botabag",
+    "displayName": "Bota Bag",
+    "category": "Items",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": -853695669,
+    "name": "bow.hunting",
+    "displayName": "Hunting Bow",
+    "category": "Weapon",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": 271534758,
+    "name": "box.wooden.large",
+    "displayName": "Large Wood Box",
+    "category": "Items",
+    "rarity": "Uncommon",
+    "stackable": 100
+  },
+  {
+    "id": -770311783,
+    "name": "box.wooden",
+    "displayName": "Wood Storage Box",
+    "category": "Items",
+    "rarity": "None",
+    "stackable": 100
+  },
+  {
+    "id": -1192532973,
+    "name": "bucket.water",
+    "displayName": "Water Bucket",
+    "category": "Tool",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": -307490664,
+    "name": "building.planner",
+    "displayName": "Building Plan",
+    "category": "Construction",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": 707427396,
+    "name": "burlap.shirt",
+    "displayName": "Burlap Shirt",
+    "category": "Attire",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": 707432758,
+    "name": "burlap.shoes",
+    "displayName": "Burlap Shoes",
+    "category": "Attire",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": -2079677721,
+    "name": "cactusflesh",
+    "displayName": "Cactus Flesh",
+    "category": "Food",
+    "rarity": "None",
+    "stackable": 10
+  },
+  {
+    "id": -1342405573,
+    "name": "tool.camera",
+    "displayName": "Camera",
+    "category": "Tool",
+    "rarity": "VeryRare",
+    "stackable": 1
+  },
+  {
+    "id": -139769801,
+    "name": "campfire",
+    "displayName": "Camp Fire",
+    "category": "Items",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": -1043746011,
+    "name": "can.beans",
+    "displayName": "Can of Beans",
+    "category": "Food",
+    "rarity": "Common",
+    "stackable": 25
+  },
+  {
+    "id": 2080339268,
+    "name": "can.beans.empty",
+    "displayName": "Empty Can Of Beans",
+    "category": "Resources",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": -171664558,
+    "name": "can.tuna",
+    "displayName": "Can of Tuna",
+    "category": "Food",
+    "rarity": "Common",
+    "stackable": 25
+  },
+  {
+    "id": 1050986417,
+    "name": "can.tuna.empty",
+    "displayName": "Empty Tuna Can",
+    "category": "Resources",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": 523409530,
+    "name": "candycane",
+    "displayName": "Candy Cane",
+    "category": "Food",
+    "rarity": "None",
+    "stackable": 25
+  },
+  {
+    "id": 1300054961,
+    "name": "cctv.camera",
+    "displayName": "CCTV Camera",
+    "category": "Resources",
+    "rarity": "Rare",
+    "stackable": 100
+  },
+  {
+    "id": -2095387015,
+    "name": "ceilinglight",
+    "displayName": "Ceiling Light",
+    "category": "Items",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 1436001773,
+    "name": "charcoal",
+    "displayName": "Charcoal",
+    "category": "Resources",
+    "rarity": "None",
+    "stackable": 50000000
+  },
+  {
+    "id": 1711323399,
+    "name": "chicken.burned",
+    "displayName": "Burned Chicken",
+    "category": "Food",
+    "rarity": "Uncommon",
+    "stackable": 2000
+  },
+  {
+    "id": 1734319168,
+    "name": "chicken.cooked",
+    "displayName": "Cooked Chicken.",
+    "category": "Food",
+    "rarity": "Uncommon",
+    "stackable": 2000
+  },
+  {
+    "id": -1658459025,
+    "name": "chicken.raw",
+    "displayName": "Raw Chicken Breast",
+    "category": "Food",
+    "rarity": "Uncommon",
+    "stackable": 20000
+  },
+  {
+    "id": -726947205,
+    "name": "chicken.spoiled",
+    "displayName": "Spoiled Chicken",
+    "category": "Food",
+    "rarity": "Uncommon",
+    "stackable": 2000
+  },
+  {
+    "id": -341443994,
+    "name": "chocholate",
+    "displayName": "Chocolate Bar",
+    "category": "Food",
+    "rarity": "Common",
+    "stackable": 250
+  },
+  {
+    "id": 94756378,
+    "name": "cloth",
+    "displayName": "Cloth",
+    "category": "Resources",
+    "rarity": "Uncommon",
+    "stackable": 50000000
+  },
+  {
+    "id": 3059095,
+    "name": "coal",
+    "displayName": "Coal :(",
+    "category": "Resources",
+    "rarity": "None",
+    "stackable": 1
+  },
+  {
+    "id": 3059624,
+    "name": "corn",
+    "displayName": "Corn",
+    "category": "Food",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 2045107609,
+    "name": "clone.corn",
+    "displayName": "Corn Clone",
+    "category": "Food",
+    "rarity": "None",
+    "stackable": 1
+  },
+  {
+    "id": 583366917,
+    "name": "seed.corn",
+    "displayName": "Corn Seed",
+    "category": "Food",
+    "rarity": "Rare",
+    "stackable": 2000
+  },
+  {
+    "id": 2123300234,
+    "name": "crossbow",
+    "displayName": "Crossbow",
+    "category": "Weapon",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 1983936587,
+    "name": "crude.oil",
+    "displayName": "Crude Oil",
+    "category": "Resources",
+    "rarity": "None",
+    "stackable": 100000
+  },
+  {
+    "id": 1257201758,
+    "name": "cupboard.tool",
+    "displayName": "Tool Cupboard",
+    "category": "Construction",
+    "rarity": "Rare",
+    "stackable": 5
+  },
+  {
+    "id": -1598790097,
+    "name": "door.double.hinged.metal",
+    "displayName": "Sheet Metal Double Door",
+    "category": "Construction",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": -933236257,
+    "name": "door.double.hinged.toptier",
+    "displayName": "Armored Double Door",
+    "category": "Construction",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": -1575287163,
+    "name": "door.double.hinged.wood",
+    "displayName": "Wood Double Door",
+    "category": "Construction",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": -2104481870,
+    "name": "door.hinged.metal",
+    "displayName": "Sheet Metal Door",
+    "category": "Construction",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": -1571725662,
+    "name": "door.hinged.toptier",
+    "displayName": "Armored Door",
+    "category": "Construction",
+    "rarity": "VeryRare",
+    "stackable": 1
+  },
+  {
+    "id": 1456441506,
+    "name": "door.hinged.wood",
+    "displayName": "Wooden Door",
+    "category": "Construction",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 1200628767,
+    "name": "door.key",
+    "displayName": "Door Key",
+    "category": "Misc",
+    "rarity": "None",
+    "stackable": 1
+  },
+  {
+    "id": 1891056868,
+    "name": "ducttape",
+    "displayName": "Duct Tape",
+    "category": "Component",
+    "rarity": "None",
+    "stackable": 5000
+  },
+  {
+    "id": 1295154089,
+    "name": "explosive.satchel",
+    "displayName": "Satchel Charge",
+    "category": "Tool",
+    "rarity": "Rare",
+    "stackable": 10
+  },
+  {
+    "id": 498591726,
+    "name": "explosive.timed",
+    "displayName": "Timed Explosive Charge",
+    "category": "Tool",
+    "rarity": "VeryRare",
+    "stackable": 1500
+  },
+  {
+    "id": 1755466030,
+    "name": "explosives",
+    "displayName": "Explosives",
+    "category": "Resources",
+    "rarity": "Rare",
+    "stackable": 10000
+  },
+  {
+    "id": -1034048911,
+    "name": "fat.animal",
+    "displayName": "Animal Fat",
+    "category": "Resources",
+    "rarity": "None",
+    "stackable": 10000000
+  },
+  {
+    "id": -2078972355,
+    "name": "fish.cooked",
+    "displayName": "Cooked Fish",
+    "category": "Food",
+    "rarity": "None",
+    "stackable": 2000
+  },
+  {
+    "id": -533484654,
+    "name": "fish.raw",
+    "displayName": "Raw Fish",
+    "category": "Food",
+    "rarity": "None",
+    "stackable": 20
+  },
+  {
+    "id": 1045869440,
+    "name": "flamethrower",
+    "displayName": "Flame Thrower",
+    "category": "Weapon",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": 97513422,
+    "name": "flare",
+    "displayName": "Flare",
+    "category": "Tool",
+    "rarity": "None",
+    "stackable": 1
+  },
+  {
+    "id": 1229879204,
+    "name": "weapon.mod.flashlight",
+    "displayName": "Weapon Flashlight",
+    "category": "Weapon",
+    "rarity": "Rare",
+    "stackable": 10
+  },
+  {
+    "id": -1722829188,
+    "name": "floor.grill",
+    "displayName": "A floor grill",
+    "category": "Construction",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": 1849912854,
+    "name": "floor.ladder.hatch",
+    "displayName": "Ladder Hatch",
+    "category": "Construction",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": 28178745,
+    "name": "lowgradefuel",
+    "displayName": "Low Grade Fuel",
+    "category": "Resources",
+    "rarity": "Uncommon",
+    "stackable": 5000000
+  },
+  {
+    "id": -505639592,
+    "name": "furnace",
+    "displayName": "Furnace",
+    "category": "Items",
+    "rarity": "None",
+    "stackable": 1
+  },
+  {
+    "id": 1598149413,
+    "name": "furnace.large",
+    "displayName": "Large Furnace",
+    "category": "Items",
+    "rarity": "Rare",
+    "stackable": 100
+  },
+  {
+    "id": -1779401418,
+    "name": "gates.external.high.stone",
+    "displayName": "High External Stone Gate",
+    "category": "Construction",
+    "rarity": "VeryRare",
+    "stackable": 100
+  },
+  {
+    "id": -57285700,
+    "name": "gates.external.high.wood",
+    "displayName": "High External Wooden Gate",
+    "category": "Construction",
+    "rarity": "Rare",
+    "stackable": 100
+  },
+  {
+    "id": 98228420,
+    "name": "gears",
+    "displayName": "Gears",
+    "category": "Component",
+    "rarity": "None",
+    "stackable": 5000
+  },
+  {
+    "id": 277631078,
+    "name": "generator.wind.scrap",
+    "displayName": "Wind Turbine",
+    "category": "Construction",
+    "rarity": "None",
+    "stackable": 1
+  },
+  {
+    "id": 115739308,
+    "name": "burlap.gloves",
+    "displayName": "Leather Gloves",
+    "category": "Attire",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": 3175989,
+    "name": "glue",
+    "displayName": "Glue",
+    "category": "Component",
+    "rarity": "None",
+    "stackable": 5000
+  },
+  {
+    "id": 718197703,
+    "name": "granolabar",
+    "displayName": "Granola Bar",
+    "category": "Food",
+    "rarity": "Common",
+    "stackable": 25
+  },
+  {
+    "id": 384204160,
+    "name": "grenade.beancan",
+    "displayName": "Beancan Grenade",
+    "category": "Weapon",
+    "rarity": "Common",
+    "stackable": 1000
+  },
+  {
+    "id": -1308622549,
+    "name": "grenade.f1",
+    "displayName": "F1 Grenade",
+    "category": "Weapon",
+    "rarity": "Uncommon",
+    "stackable": 1500
+  },
+  {
+    "id": -217113639,
+    "name": "fun.guitar",
+    "displayName": "Acoustic Guitar",
+    "category": "Misc",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": -1580059655,
+    "name": "gunpowder",
+    "displayName": "Gun Powder",
+    "category": "Resources",
+    "rarity": "Uncommon",
+    "stackable": 50000000
+  },
+  {
+    "id": 936777834,
+    "name": "attire.hide.helterneck",
+    "displayName": "Hide Halterneck",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -1224598842,
+    "name": "hammer",
+    "displayName": "Hammer",
+    "category": "Tool",
+    "rarity": "None",
+    "stackable": 1
+  },
+  {
+    "id": -1976561211,
+    "name": "hammer.salvaged",
+    "displayName": "Salvaged Hammer",
+    "category": "Tool",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -1406876421,
+    "name": "hat.beenie",
+    "displayName": "Beenie Hat",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -1397343301,
+    "name": "hat.boonie",
+    "displayName": "Boonie Hat",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 1260209393,
+    "name": "bucket.helmet",
+    "displayName": "Bucket Helmet",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -1035315940,
+    "name": "burlap.headwrap",
+    "displayName": "Burlap Headwrap",
+    "category": "Attire",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": -1381682752,
+    "name": "hat.candle",
+    "displayName": "Candle Hat",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 696727039,
+    "name": "hat.cap",
+    "displayName": "Baseball Cap",
+    "category": "Attire",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": -2128719593,
+    "name": "coffeecan.helmet",
+    "displayName": "Coffee Can Helmet",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -1178289187,
+    "name": "deer.skull.mask",
+    "displayName": "Bone Helmet",
+    "category": "Attire",
+    "rarity": "None",
+    "stackable": 1
+  },
+  {
+    "id": -450738836,
+    "name": "hat.miner",
+    "displayName": "Miners Hat",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 340009023,
+    "name": "riot.helmet",
+    "displayName": "Riot Helmet",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 124310981,
+    "name": "hat.wolf",
+    "displayName": "Wolf Headdress",
+    "category": "Attire",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": 698310895,
+    "name": "hatchet",
+    "displayName": "Hatchet",
+    "category": "Tool",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -1078788046,
+    "name": "hazmat.boots",
+    "displayName": "Hazmat Boots",
+    "category": "Attire",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": 1057685737,
+    "name": "hazmat.gloves",
+    "displayName": "Hazmat Gloves",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 1079752220,
+    "name": "hazmat.helmet",
+    "displayName": "Hazmat Helmet",
+    "category": "Attire",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": 1133046397,
+    "name": "hazmat.jacket",
+    "displayName": "Hazmat Jacket",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -1066276787,
+    "name": "hazmat.pants",
+    "displayName": "Hazmat Pants",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 523855532,
+    "name": "hazmatsuit",
+    "displayName": "Hazmat Suit",
+    "category": "Attire",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": 2045246801,
+    "name": "clone.hemp",
+    "displayName": "Hemp Clone",
+    "category": "Food",
+    "rarity": "None",
+    "stackable": 1
+  },
+  {
+    "id": 583506109,
+    "name": "seed.hemp",
+    "displayName": "Hemp Seed",
+    "category": "Food",
+    "rarity": "Rare",
+    "stackable": 50000
+  },
+  {
+    "id": -148163128,
+    "name": "attire.hide.boots",
+    "displayName": "Hide Boots",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -132588262,
+    "name": "attire.hide.skirt",
+    "displayName": "Hide Skirt",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -1666761111,
+    "name": "attire.hide.vest",
+    "displayName": "Hide Vest",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -465236267,
+    "name": "weapon.mod.holosight",
+    "displayName": "Holosight",
+    "category": "Weapon",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": -1211618504,
+    "name": "hoodie",
+    "displayName": "Hoodie",
+    "category": "Attire",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": 2133577942,
+    "name": "hq.metal.ore",
+    "displayName": "High Quality Metal Ore",
+    "category": "Resources",
+    "rarity": "None",
+    "stackable": 50000000
+  },
+  {
+    "id": -1014825244,
+    "name": "humanmeat.burned",
+    "displayName": "Burned Human Meat",
+    "category": "Food",
+    "rarity": "None",
+    "stackable": 2000
+  },
+  {
+    "id": -991829475,
+    "name": "humanmeat.cooked",
+    "displayName": "Cooked Human Meat",
+    "category": "Food",
+    "rarity": "None",
+    "stackable": 2000
+  },
+  {
+    "id": -642008142,
+    "name": "humanmeat.raw",
+    "displayName": "Raw Human Meat",
+    "category": "Food",
+    "rarity": "None",
+    "stackable": 20000
+  },
+  {
+    "id": 661790782,
+    "name": "humanmeat.spoiled",
+    "displayName": "Spoiled Human Meat",
+    "category": "Food",
+    "rarity": "None",
+    "stackable": 2000
+  },
+  {
+    "id": -1440143841,
+    "name": "icepick.salvaged",
+    "displayName": "Salvaged Icepick",
+    "category": "Tool",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 569119686,
+    "name": "bone.armor.suit",
+    "displayName": "Bone Armor",
+    "category": "Attire",
+    "rarity": "None",
+    "stackable": 1
+  },
+  {
+    "id": -1616887133,
+    "name": "jacket.snow",
+    "displayName": "Snow Jacket - Red",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -1167640370,
+    "name": "jacket",
+    "displayName": "Jacket",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -1284735799,
+    "name": "jackolantern.angry",
+    "displayName": "Jack O Lantern Angry",
+    "category": "Items",
+    "rarity": "VeryRare",
+    "stackable": 1
+  },
+  {
+    "id": -1278649848,
+    "name": "jackolantern.happy",
+    "displayName": "Jack O Lantern Happy",
+    "category": "Items",
+    "rarity": "VeryRare",
+    "stackable": 1
+  },
+  {
+    "id": 776005741,
+    "name": "knife.bone",
+    "displayName": "Bone Knife",
+    "category": "Weapon",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": 108061910,
+    "name": "ladder.wooden.wall",
+    "displayName": "Wooden Ladder",
+    "category": "Construction",
+    "rarity": "Rare",
+    "stackable": 100
+  },
+  {
+    "id": 255101535,
+    "name": "trap.landmine",
+    "displayName": "Land Mine",
+    "category": "Traps",
+    "rarity": "None",
+    "stackable": 1500
+  },
+  {
+    "id": -51678842,
+    "name": "lantern",
+    "displayName": "Lantern",
+    "category": "Items",
+    "rarity": "Uncommon",
+    "stackable": 25
+  },
+  {
+    "id": -789202811,
+    "name": "largemedkit",
+    "displayName": "Large Medkit",
+    "category": "Medical",
+    "rarity": "Rare",
+    "stackable": 100
+  },
+  {
+    "id": 516382256,
+    "name": "weapon.mod.lasersight",
+    "displayName": "Weapon Lasersight",
+    "category": "Weapon",
+    "rarity": "Rare",
+    "stackable": 10
+  },
+  {
+    "id": 50834473,
+    "name": "leather",
+    "displayName": "Leather",
+    "category": "Resources",
+    "rarity": "Uncommon",
+    "stackable": 50000000
+  },
+  {
+    "id": -975723312,
+    "name": "lock.code",
+    "displayName": "Code Lock",
+    "category": "Construction",
+    "rarity": "Uncommon",
+    "stackable": 100
+  },
+  {
+    "id": 1908195100,
+    "name": "lock.key",
+    "displayName": "Lock",
+    "category": "Construction",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": 146685185,
+    "name": "longsword",
+    "displayName": "Longsword",
+    "category": "Weapon",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -1716193401,
+    "name": "rifle.lr300",
+    "displayName": "LR-300 Assault Rifle",
+    "category": "Weapon",
+    "rarity": "VeryRare",
+    "stackable": 1
+  },
+  {
+    "id": 193190034,
+    "name": "lmg.m249",
+    "displayName": "M249",
+    "category": "Weapon",
+    "rarity": "None",
+    "stackable": 1
+  },
+  {
+    "id": 371156815,
+    "name": "pistol.m92",
+    "displayName": "M92 Pistol",
+    "category": "Weapon",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": 3343606,
+    "name": "mace",
+    "displayName": "Mace",
+    "category": "Weapon",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 825308669,
+    "name": "machete",
+    "displayName": "Machete",
+    "category": "Weapon",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": 107868,
+    "name": "map",
+    "displayName": "Paper Map",
+    "category": "Items",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 997973965,
+    "name": "mask.balaclava",
+    "displayName": "Improvised Balaclava",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -46188931,
+    "name": "mask.bandana",
+    "displayName": "Bandana Mask",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -46848560,
+    "name": "metal.facemask",
+    "displayName": "Metal Facemask",
+    "category": "Attire",
+    "rarity": "VeryRare",
+    "stackable": 1
+  },
+  {
+    "id": -2066726403,
+    "name": "bearmeat.burned",
+    "displayName": "Burnt Bear Meat",
+    "category": "Food",
+    "rarity": "Uncommon",
+    "stackable": 2000
+  },
+  {
+    "id": -2043730634,
+    "name": "bearmeat.cooked",
+    "displayName": "Bear Meat Cooked",
+    "category": "Food",
+    "rarity": "Uncommon",
+    "stackable": 2000
+  },
+  {
+    "id": 1325935999,
+    "name": "bearmeat",
+    "displayName": "Bear Meat",
+    "category": "Food",
+    "rarity": "Uncommon",
+    "stackable": 2000
+  },
+  {
+    "id": 968732481,
+    "name": "meat.pork.burned",
+    "displayName": "Burned Pork",
+    "category": "Food",
+    "rarity": "Uncommon",
+    "stackable": 2000
+  },
+  {
+    "id": 991728250,
+    "name": "meat.pork.cooked",
+    "displayName": "Cooked Pork",
+    "category": "Food",
+    "rarity": "Uncommon",
+    "stackable": 2000
+  },
+  {
+    "id": -253819519,
+    "name": "meat.boar",
+    "displayName": "Pork",
+    "category": "Food",
+    "rarity": "Uncommon",
+    "stackable": 20000
+  },
+  {
+    "id": -1714986849,
+    "name": "wolfmeat.burned",
+    "displayName": "Burned Wolf Meat",
+    "category": "Food",
+    "rarity": "Uncommon",
+    "stackable": 2000
+  },
+  {
+    "id": -1691991080,
+    "name": "wolfmeat.cooked",
+    "displayName": "Cooked Wolf Meat",
+    "category": "Food",
+    "rarity": "Uncommon",
+    "stackable": 2000
+  },
+  {
+    "id": 179448791,
+    "name": "wolfmeat.raw",
+    "displayName": "Raw Wolf Meat",
+    "category": "Food",
+    "rarity": "Uncommon",
+    "stackable": 20000
+  },
+  {
+    "id": 431617507,
+    "name": "wolfmeat.spoiled",
+    "displayName": "Spoiled Wolf Meat",
+    "category": "Food",
+    "rarity": "Uncommon",
+    "stackable": 2000
+  },
+  {
+    "id": 688032252,
+    "name": "metal.fragments",
+    "displayName": "Metal Fragments",
+    "category": "Resources",
+    "rarity": "None",
+    "stackable": 50000000
+  },
+  {
+    "id": -1059362949,
+    "name": "metal.ore",
+    "displayName": "Metal Ore",
+    "category": "Resources",
+    "rarity": "None",
+    "stackable": 50000000
+  },
+  {
+    "id": 1265861812,
+    "name": "metal.plate.torso",
+    "displayName": "Metal Chest Plate",
+    "category": "Attire",
+    "rarity": "VeryRare",
+    "stackable": 1
+  },
+  {
+    "id": 374890416,
+    "name": "metal.refined",
+    "displayName": "High Quality Metal",
+    "category": "Resources",
+    "rarity": "None",
+    "stackable": 1000000
+  },
+  {
+    "id": 1567404401,
+    "name": "metalblade",
+    "displayName": "Metal Blade",
+    "category": "Component",
+    "rarity": "None",
+    "stackable": 5000
+  },
+  {
+    "id": -1057402571,
+    "name": "metalpipe",
+    "displayName": "Metal Pipe",
+    "category": "Component",
+    "rarity": "None",
+    "stackable": 5000
+  },
+  {
+    "id": -758925787,
+    "name": "mining.pumpjack",
+    "displayName": "Pump Jack",
+    "category": "Construction",
+    "rarity": "None",
+    "stackable": 1
+  },
+  {
+    "id": -1411620422,
+    "name": "mining.quarry",
+    "displayName": "Mining Quarry",
+    "category": "Construction",
+    "rarity": "None",
+    "stackable": 1
+  },
+  {
+    "id": 88869913,
+    "name": "fish.minnows",
+    "displayName": "Minnows",
+    "category": "Food",
+    "rarity": "None",
+    "stackable": 10
+  },
+  {
+    "id": -2094080303,
+    "name": "smg.mp5",
+    "displayName": "MP5A4",
+    "category": "Weapon",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": 843418712,
+    "name": "mushroom",
+    "displayName": "Mushroom",
+    "category": "Food",
+    "rarity": "None",
+    "stackable": 1000000
+  },
+  {
+    "id": -1569356508,
+    "name": "weapon.mod.muzzleboost",
+    "displayName": "Muzzle Boost",
+    "category": "Weapon",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": -1569280852,
+    "name": "weapon.mod.muzzlebrake",
+    "displayName": "Muzzle Brake",
+    "category": "Weapon",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": 3387378,
+    "name": "note",
+    "displayName": "Note",
+    "category": "Misc",
+    "rarity": "None",
+    "stackable": 1
+  },
+  {
+    "id": 1767561705,
+    "name": "burlap.trousers",
+    "displayName": "Burlap Trousers",
+    "category": "Attire",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": 106433500,
+    "name": "pants",
+    "displayName": "Pants",
+    "category": "Attire",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": -135651869,
+    "name": "attire.hide.pants",
+    "displayName": "Hide Pants",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -1595790889,
+    "name": "roadsign.kilt",
+    "displayName": "Road Sign Kilt",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -459156023,
+    "name": "pants.shorts",
+    "displayName": "Shorts",
+    "category": "Attire",
+    "rarity": "None",
+    "stackable": 1
+  },
+  {
+    "id": 106434956,
+    "name": "paper",
+    "displayName": "Paper",
+    "category": "Resources",
+    "rarity": "Common",
+    "stackable": 10000
+  },
+  {
+    "id": -578028723,
+    "name": "pickaxe",
+    "displayName": "Pick Axe",
+    "category": "Tool",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": -1379225193,
+    "name": "pistol.eoka",
+    "displayName": "Eoka Pistol",
+    "category": "Weapon",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": -930579334,
+    "name": "pistol.revolver",
+    "displayName": "Revolver",
+    "category": "Weapon",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 548699316,
+    "name": "pistol.semiauto",
+    "displayName": "Semi-Automatic Pistol",
+    "category": "Weapon",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": 142147109,
+    "name": "planter.large",
+    "displayName": "Large Planter Box",
+    "category": "Items",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 148953073,
+    "name": "planter.small",
+    "displayName": "Small Planter Box",
+    "category": "Items",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 102672084,
+    "name": "attire.hide.poncho",
+    "displayName": "Hide Poncho",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 640562379,
+    "name": "pookie.bear",
+    "displayName": "Pookie Bear",
+    "category": "Items",
+    "rarity": "None",
+    "stackable": 1
+  },
+  {
+    "id": -1732316031,
+    "name": "xmas.present.large",
+    "displayName": "Large Present",
+    "category": "Misc",
+    "rarity": "None",
+    "stackable": 100
+  },
+  {
+    "id": -2130280721,
+    "name": "xmas.present.medium",
+    "displayName": "Medium Present",
+    "category": "Misc",
+    "rarity": "None",
+    "stackable": 50
+  },
+  {
+    "id": -1725510067,
+    "name": "xmas.present.small",
+    "displayName": "Small Present",
+    "category": "Misc",
+    "rarity": "None",
+    "stackable": 10
+  },
+  {
+    "id": 1974032895,
+    "name": "propanetank",
+    "displayName": "Empty Propane Tank",
+    "category": "Component",
+    "rarity": "None",
+    "stackable": 5000
+  },
+  {
+    "id": -225085592,
+    "name": "pumpkin",
+    "displayName": "Pumpkin",
+    "category": "Food",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 509654999,
+    "name": "clone.pumpkin",
+    "displayName": "Pumpkin Plant Clone",
+    "category": "Food",
+    "rarity": "None",
+    "stackable": 1
+  },
+  {
+    "id": 466113771,
+    "name": "seed.pumpkin",
+    "displayName": "Pumpkin Seed",
+    "category": "Food",
+    "rarity": "Rare",
+    "stackable": 50
+  },
+  {
+    "id": 2033918259,
+    "name": "pistol.python",
+    "displayName": "Python Revolver",
+    "category": "Weapon",
+    "rarity": "VeryRare",
+    "stackable": 1
+  },
+  {
+    "id": 2069925558,
+    "name": "target.reactive",
+    "displayName": "Reactive Target",
+    "category": "Items",
+    "rarity": "None",
+    "stackable": 1
+  },
+  {
+    "id": -1026117678,
+    "name": "box.repair.bench",
+    "displayName": "Repair Bench",
+    "category": "Items",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 1987447227,
+    "name": "research.table",
+    "displayName": "Research Table",
+    "category": "Items",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": 540154065,
+    "name": "researchpaper",
+    "displayName": "Research Paper",
+    "category": "Resources",
+    "rarity": "None",
+    "stackable": 1000
+  },
+  {
+    "id": 1939428458,
+    "name": "riflebody",
+    "displayName": "Rifle Body",
+    "category": "Component",
+    "rarity": "None",
+    "stackable": 5000
+  },
+  {
+    "id": -288010497,
+    "name": "roadsign.jacket",
+    "displayName": "Road Sign Jacket",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -847065290,
+    "name": "roadsigns",
+    "displayName": "Road Signs",
+    "category": "Component",
+    "rarity": "None",
+    "stackable": 5000
+  },
+  {
+    "id": 3506021,
+    "name": "rock",
+    "displayName": "Rock",
+    "category": "Tool",
+    "rarity": "None",
+    "stackable": 1
+  },
+  {
+    "id": 649603450,
+    "name": "rocket.launcher",
+    "displayName": "Rocket Launcher",
+    "category": "Weapon",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": 3506418,
+    "name": "rope",
+    "displayName": "Rope",
+    "category": "Component",
+    "rarity": "None",
+    "stackable": 5000
+  },
+  {
+    "id": 1916127949,
+    "name": "water.salt",
+    "displayName": "Salt Water",
+    "category": "Resources",
+    "rarity": "None",
+    "stackable": 2147483647
+  },
+  {
+    "id": -1775234707,
+    "name": "salvaged.cleaver",
+    "displayName": "Salvaged Cleaver",
+    "category": "Weapon",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -388967316,
+    "name": "salvaged.sword",
+    "displayName": "Salvaged Sword",
+    "category": "Weapon",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": 2007564590,
+    "name": "santahat",
+    "displayName": "Santa Hat",
+    "category": "Attire",
+    "rarity": "None",
+    "stackable": 1
+  },
+  {
+    "id": -141135377,
+    "name": "weapon.mod.small.scope",
+    "displayName": "4x Zoom Scope",
+    "category": "Weapon",
+    "rarity": "Rare",
+    "stackable": 10
+  },
+  {
+    "id": -1745053053,
+    "name": "rifle.semiauto",
+    "displayName": "Semi-Automatic Rifle",
+    "category": "Weapon",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": 1223860752,
+    "name": "semibody",
+    "displayName": "Semi Automatic Body",
+    "category": "Component",
+    "rarity": "None",
+    "stackable": 10
+  },
+  {
+    "id": -419069863,
+    "name": "sewingkit",
+    "displayName": "Sewing Kit",
+    "category": "Component",
+    "rarity": "None",
+    "stackable": 5000
+  },
+  {
+    "id": -1617374968,
+    "name": "sheetmetal",
+    "displayName": "Sheet Metal",
+    "category": "Component",
+    "rarity": "None",
+    "stackable": 5000
+  },
+  {
+    "id": 2057749608,
+    "name": "shelves",
+    "displayName": "Salvaged Shelves",
+    "category": "Items",
+    "rarity": "Uncommon",
+    "stackable": 10
+  },
+  {
+    "id": 24576628,
+    "name": "shirt.collared",
+    "displayName": "Shirt",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -1659202509,
+    "name": "shirt.tanktop",
+    "displayName": "Tank Top",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 2107229499,
+    "name": "shoes.boots",
+    "displayName": "Boots",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 191795897,
+    "name": "shotgun.double",
+    "displayName": "Double Barrel Shotgun",
+    "category": "Weapon",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": -1009492144,
+    "name": "shotgun.pump",
+    "displayName": "Pump Shotgun",
+    "category": "Weapon",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": 2077983581,
+    "name": "shotgun.waterpipe",
+    "displayName": "Waterpipe Shotgun",
+    "category": "Weapon",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -529054135,
+    "name": "shutter.metal.embrasure.a",
+    "displayName": "Metal horizontal embrasure",
+    "category": "Construction",
+    "rarity": "Common",
+    "stackable": 200
+  },
+  {
+    "id": -529054134,
+    "name": "shutter.metal.embrasure.b",
+    "displayName": "Metal Vertical embrasure",
+    "category": "Construction",
+    "rarity": "Common",
+    "stackable": 200
+  },
+  {
+    "id": 486166145,
+    "name": "shutter.wood.a",
+    "displayName": "Wood Shutters",
+    "category": "Construction",
+    "rarity": "Common",
+    "stackable": 20
+  },
+  {
+    "id": 1628490888,
+    "name": "sign.hanging.banner.large",
+    "displayName": "Large Banner Hanging",
+    "category": "Items",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": 1498516223,
+    "name": "sign.hanging",
+    "displayName": "Two Sided Hanging Sign",
+    "category": "Items",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -632459882,
+    "name": "sign.hanging.ornate",
+    "displayName": "Two Sided Ornate Hanging Sign",
+    "category": "Items",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": -626812403,
+    "name": "sign.pictureframe.landscape",
+    "displayName": "Landscape Picture Frame",
+    "category": "Items",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 385802761,
+    "name": "sign.pictureframe.portrait",
+    "displayName": "Portrait Picture Frame",
+    "category": "Items",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 2117976603,
+    "name": "sign.pictureframe.tall",
+    "displayName": "Tall Picture Frame",
+    "category": "Items",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 1338515426,
+    "name": "sign.pictureframe.xl",
+    "displayName": "XL Picture Frame",
+    "category": "Items",
+    "rarity": "Rare",
+    "stackable": 100
+  },
+  {
+    "id": -1455694274,
+    "name": "sign.pictureframe.xxl",
+    "displayName": "XXL Picture Frame",
+    "category": "Items",
+    "rarity": "Rare",
+    "stackable": 100
+  },
+  {
+    "id": 1579245182,
+    "name": "sign.pole.banner.large",
+    "displayName": "Large Banner on pole",
+    "category": "Items",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": -587434450,
+    "name": "sign.post.double",
+    "displayName": "Double Sign Post",
+    "category": "Items",
+    "rarity": "Uncommon",
+    "stackable": 10
+  },
+  {
+    "id": -163742043,
+    "name": "sign.post.single",
+    "displayName": "Single Sign Post",
+    "category": "Items",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": -1224714193,
+    "name": "sign.post.town",
+    "displayName": "One Sided Town Sign Post",
+    "category": "Items",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 644359987,
+    "name": "sign.post.town.roof",
+    "displayName": "Two Sided Town Sign Post",
+    "category": "Items",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": -1962514734,
+    "name": "sign.wooden.huge",
+    "displayName": "Huge Wooden Sign",
+    "category": "Items",
+    "rarity": "Uncommon",
+    "stackable": 100
+  },
+  {
+    "id": -705305612,
+    "name": "sign.wooden.large",
+    "displayName": "Large Wooden Sign",
+    "category": "Items",
+    "rarity": "Uncommon",
+    "stackable": 100
+  },
+  {
+    "id": -357728804,
+    "name": "sign.wooden.medium",
+    "displayName": "Wooden Sign",
+    "category": "Items",
+    "rarity": "Common",
+    "stackable": 100
+  },
+  {
+    "id": -698499648,
+    "name": "sign.wooden.small",
+    "displayName": "Small Wooden Sign",
+    "category": "Items",
+    "rarity": "Common",
+    "stackable": 100
+  },
+  {
+    "id": 1213686767,
+    "name": "weapon.mod.silencer",
+    "displayName": "Silencer",
+    "category": "Weapon",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": 960793436,
+    "name": "skull.human",
+    "displayName": "Human Skull",
+    "category": "Resources",
+    "rarity": "None",
+    "stackable": 100
+  },
+  {
+    "id": 1001265731,
+    "name": "skull.wolf",
+    "displayName": "Wolf Skull",
+    "category": "Resources",
+    "rarity": "None",
+    "stackable": 100
+  },
+  {
+    "id": 1253290621,
+    "name": "sleepingbag",
+    "displayName": "Sleeping Bag",
+    "category": "Items",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 470729623,
+    "name": "small.oil.refinery",
+    "displayName": "Small Oil Refinery",
+    "category": "Items",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": 1051155022,
+    "name": "stash.small",
+    "displayName": "Small Stash",
+    "category": "Items",
+    "rarity": "None",
+    "stackable": 10
+  },
+  {
+    "id": 865679437,
+    "name": "fish.troutsmall",
+    "displayName": "Small Trout",
+    "category": "Food",
+    "rarity": "None",
+    "stackable": 10
+  },
+  {
+    "id": 927253046,
+    "name": "smallwaterbottle",
+    "displayName": "Small Water Bottle",
+    "category": "Food",
+    "rarity": "Common",
+    "stackable": 100
+  },
+  {
+    "id": 109552593,
+    "name": "smg.2",
+    "displayName": "Custom SMG",
+    "category": "Weapon",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": -2092529553,
+    "name": "smgbody",
+    "displayName": "SMG Body",
+    "category": "Component",
+    "rarity": "None",
+    "stackable": 5000
+  },
+  {
+    "id": -2118132208,
+    "name": "spear.stone",
+    "displayName": "Stone Spear",
+    "category": "Weapon",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -1127699509,
+    "name": "spear.wooden",
+    "displayName": "Wooden Spear",
+    "category": "Weapon",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": -685265909,
+    "name": "spikes.floor",
+    "displayName": "Wooden Floor Spikes",
+    "category": "Traps",
+    "rarity": "None",
+    "stackable": 25
+  },
+  {
+    "id": 1835797460,
+    "name": "metalspring",
+    "displayName": "Metal Spring",
+    "category": "Component",
+    "rarity": "None",
+    "stackable": 5000
+  },
+  {
+    "id": -892259869,
+    "name": "sticks",
+    "displayName": "Sticks",
+    "category": "Component",
+    "rarity": "None",
+    "stackable": 5000
+  },
+  {
+    "id": -1623330855,
+    "name": "stocking.large",
+    "displayName": "SUPER Stocking",
+    "category": "Items",
+    "rarity": "None",
+    "stackable": 1
+  },
+  {
+    "id": -1616524891,
+    "name": "stocking.small",
+    "displayName": "Small Stocking",
+    "category": "Items",
+    "rarity": "None",
+    "stackable": 10
+  },
+  {
+    "id": 789892804,
+    "name": "stone.pickaxe",
+    "displayName": "Stone Pick Axe",
+    "category": "Tool",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": -1289478934,
+    "name": "stonehatchet",
+    "displayName": "Stone Hatchet",
+    "category": "Tool",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": -892070738,
+    "name": "stones",
+    "displayName": "Stones",
+    "category": "Resources",
+    "rarity": "None",
+    "stackable": 50000000
+  },
+  {
+    "id": -891243783,
+    "name": "sulfur",
+    "displayName": "Sulfur",
+    "category": "Resources",
+    "rarity": "None",
+    "stackable": 50000000
+  },
+  {
+    "id": 889398893,
+    "name": "sulfur.ore",
+    "displayName": "Sulfur Ore",
+    "category": "Resources",
+    "rarity": "None",
+    "stackable": 50000000
+  },
+  {
+    "id": -1625468793,
+    "name": "supply.signal",
+    "displayName": "Supply Signal",
+    "category": "Tool",
+    "rarity": "VeryRare",
+    "stackable": 10
+  },
+  {
+    "id": 1293049486,
+    "name": "surveycharge",
+    "displayName": "Survey Charge",
+    "category": "Tool",
+    "rarity": "Uncommon",
+    "stackable": 100
+  },
+  {
+    "id": 1369769822,
+    "name": "fishtrap.small",
+    "displayName": "Survival Fish Trap",
+    "category": "Items",
+    "rarity": "None",
+    "stackable": 1
+  },
+  {
+    "id": 586484018,
+    "name": "syringe.medical",
+    "displayName": "Medical Syringe",
+    "category": "Medical",
+    "rarity": "Common",
+    "stackable": 1500
+  },
+  {
+    "id": 1490499512,
+    "name": "targeting.computer",
+    "displayName": "Targeting Computer",
+    "category": "Resources",
+    "rarity": "None",
+    "stackable": 100
+  },
+  {
+    "id": 3552619,
+    "name": "tarp",
+    "displayName": "Tarp",
+    "category": "Component",
+    "rarity": "None",
+    "stackable": 5000
+  },
+  {
+    "id": 1471284746,
+    "name": "techparts",
+    "displayName": "Tech Trash",
+    "category": "Component",
+    "rarity": "None",
+    "stackable": 5000
+  },
+  {
+    "id": 456448245,
+    "name": "smg.thompson",
+    "displayName": "Thompson",
+    "category": "Weapon",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": 110547964,
+    "name": "torch",
+    "displayName": "Torch",
+    "category": "Tool",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": -864578046,
+    "name": "tshirt",
+    "displayName": "T-Shirt",
+    "category": "Attire",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": 1660607208,
+    "name": "tshirt.long",
+    "displayName": "Longsleeve T-Shirt",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -496055048,
+    "name": "wall.external.high.stone",
+    "displayName": "High External Stone Wall",
+    "category": "Construction",
+    "rarity": "VeryRare",
+    "stackable": 100
+  },
+  {
+    "id": -1792066367,
+    "name": "wall.external.high",
+    "displayName": "High External Wooden Wall",
+    "category": "Construction",
+    "rarity": "Rare",
+    "stackable": 100
+  },
+  {
+    "id": 562888306,
+    "name": "wall.frame.cell.gate",
+    "displayName": "Prison Cell Gate",
+    "category": "Construction",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": -427925529,
+    "name": "wall.frame.cell",
+    "displayName": "Prison Cell Wall",
+    "category": "Construction",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": 995306285,
+    "name": "wall.frame.fence.gate",
+    "displayName": "Chainlink Fence Gate",
+    "category": "Construction",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": -378017204,
+    "name": "wall.frame.fence",
+    "displayName": "Chainlink Fence",
+    "category": "Construction",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": 1175970190,
+    "name": "wall.frame.shopfront",
+    "displayName": "Shop Front",
+    "category": "Construction",
+    "rarity": "Rare",
+    "stackable": 1
+  },
+  {
+    "id": -1021702157,
+    "name": "wall.window.bars.metal",
+    "displayName": "Metal Window Bars",
+    "category": "Construction",
+    "rarity": "Rare",
+    "stackable": 100
+  },
+  {
+    "id": -402507101,
+    "name": "wall.window.bars.toptier",
+    "displayName": "Reinforced Window Bars",
+    "category": "Construction",
+    "rarity": "Rare",
+    "stackable": 100
+  },
+  {
+    "id": -1556671423,
+    "name": "wall.window.bars.wood",
+    "displayName": "Wooden Window Bars",
+    "category": "Construction",
+    "rarity": "Uncommon",
+    "stackable": 100
+  },
+  {
+    "id": 112903447,
+    "name": "water",
+    "displayName": "Water",
+    "category": "Resources",
+    "rarity": "None",
+    "stackable": 2147483647
+  },
+  {
+    "id": 1817873886,
+    "name": "water.catcher.large",
+    "displayName": "Large Water Catcher",
+    "category": "Construction",
+    "rarity": "None",
+    "stackable": 100
+  },
+  {
+    "id": 1824679850,
+    "name": "water.catcher.small",
+    "displayName": "Small Water Catcher",
+    "category": "Construction",
+    "rarity": "None",
+    "stackable": 100
+  },
+  {
+    "id": -1628526499,
+    "name": "water.barrel",
+    "displayName": "Water Barrel",
+    "category": "Items",
+    "rarity": "Common",
+    "stackable": 1
+  },
+  {
+    "id": 547302405,
+    "name": "waterjug",
+    "displayName": "Water Jug",
+    "category": "Food",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 1840561315,
+    "name": "water.purifier",
+    "displayName": "Water Purifier",
+    "category": "Items",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": 3655341,
+    "name": "wood",
+    "displayName": "Wood",
+    "category": "Resources",
+    "rarity": "None",
+    "stackable": 50000000
+  },
+  {
+    "id": 1554697726,
+    "name": "wood.armor.jacket",
+    "displayName": "Wood Chestplate",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  },
+  {
+    "id": -1883959124,
+    "name": "wood.armor.pants",
+    "displayName": "Wood Armor Pants",
+    "category": "Attire",
+    "rarity": "Uncommon",
+    "stackable": 1
+  }
+]

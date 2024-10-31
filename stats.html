@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>RustTech | Test | Stats</title>
+</head>
+<body>
+    <p>
+        <table id="stats" rules="all" class="tablesorter"></table>
+    </p>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+
+        $(document).ready(function () {
+            var content = '<thead><tr><th>Player</th><th>Kills</th><th>Deaths</th><th>KDR</th></tr></thead><tbody>';
+
+            $.getJSON('http://rusttech.net:8888/getPlayersGlobalStats', function (data) {
+
+                for (var i = 0; i < data.players.length; i++) {
+
+                    var k = data.players[i].PlayerKills.length;
+                    var d = data.players[i].PlayerDeathsPVP.length;
+                    
+                    if (k != 0) {
+                        for (var j = 0; j < k; j++) {
+                            if (data.players[i].PlayerKills[j].sleeperKill == true) k = k - 1;
+                        }
+                    }
+                    if (d != 0) {
+                        for (var p = 0; p < d; p++) {
+                            if (data.players[i].PlayerDeathsPVP[p].sleeperKill == true) d = d - 1;
+                        }
+                    }
+                    var kdr = k / d;
+                    if (d == 0 && k != 0) kdr = k;
+                    if (d == 0 && k == 0) kdr = 0;
+                    kdr = kdr.toFixed(2);
+
+                    content += "<tr><td>" + data.players[i].PlayerName + "</td><td>" + k + "</td><td>" + d + "</td><td>" + kdr + "</td></tr>";
+
+                }
+                content += "</tbody>"
+                $("#stats").html(content);
+
+            });
+          $("#stats").tablesorter(); 
+        })
+
+    </script>
+</body>
+</html>

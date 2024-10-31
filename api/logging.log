@@ -1,0 +1,22 @@
+[2016-08-06 16:05 Europe/Amsterdam] Error code : 400
+Error message : Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment/PAY-8DR83453E1008714LK6S6WQI/execute.
+[2016-09-18 13:06 Europe/Berlin] Error code : 0
+Error message : paymentId cannot be null
+[2016-10-13 09:49 Europe/Berlin] Error code : 0
+Error message : paymentId cannot be null
+[2016-11-25 21:28 Europe/Amsterdam] Error code : 400
+Error message : Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment/PAY-3G5910109J646373ULA4J53A/execute.
+[2016-11-25 21:39 Europe/Amsterdam] Error code : 400
+Error message : Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment/PAY-2FJ175333Y9327038LA4KCZY/execute.
+[2016-11-28 19:43 Europe/Paris] Error code : 0
+Error message : paymentId cannot be null
+[2016-12-03 15:23 Europe/Paris] Error code : 0
+Error message : paymentId cannot be null
+[2017-01-01 17:28 Europe/Paris] Error code : 0
+Error message : paymentId cannot be null
+[2017-01-10 17:25 Europe/Paris] Error code : 0
+Error message : paymentId cannot be null
+[2017-01-10 17:25 Europe/Paris] Error code : 0
+Error message : paymentId cannot be null
+[2017-01-13 16:42 Europe/Paris] Error code : 0
+Error message : paymentId cannot be null

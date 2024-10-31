@@ -1,0 +1,24 @@
+{
+	"response": {
+		"players": [
+			{
+				"steamid": "76561197988704127",
+				"communityvisibilitystate": 3,
+				"profilestate": 1,
+				"personaname": "sam",
+				"lastlogoff": 1486482857,
+				"profileurl": "http://steamcommunity.com/profiles/76561197988704127/",
+				"avatar": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/ff/ff882f6bf75dd2081919c4d969c059a80b549743.jpg",
+				"avatarmedium": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/ff/ff882f6bf75dd2081919c4d969c059a80b549743_medium.jpg",
+				"avatarfull": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/ff/ff882f6bf75dd2081919c4d969c059a80b549743_full.jpg",
+				"personastate": 0,
+				"realname": "sam",
+				"primaryclanid": "103582791453999892",
+				"timecreated": 1173720916,
+				"personastateflags": 0,
+				"loccountrycode": "FR"
+			}
+		]
+		
+	}
+}

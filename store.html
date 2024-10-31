@@ -1,0 +1,411 @@
+﻿
+<!DOCTYPE HTML>
+<!--
+	Stellar by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+	<head>
+		<title>RustTech - Store</title>
+		<link rel="icon" type="image/png" href="images/favicon-white.png"></link>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+		<style type="text/css">
+		#PPMiniCart{
+		margin-top:500px;}
+		</style>
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Store</h1>
+						<p>Resources, Ranks, and Kits</p>
+					</header>
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="home.html">Home</a></li>
+							<li><a href="home.html#contact">Contact</a></li>
+							<li><a href="home.html#tc">Terms & Conditions</a></li>
+							<li><a href="store.html" class="active">Store</a></li>
+							<li><a href="http://playrust.io/map/?rusttech.net:28015">Live Map</a></li>
+						</ul>
+<br>
+						<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="business" value="KMZXB7C9GBV84">
+<input type="hidden" name="display" value="1">
+<button class="button special fit small" name="submit" alt="PayPal � The safer, easier way to pay online.">View Cart</button>
+</form>
+					</nav>
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+<br>
+								
+<p  style="font-size: 18px">
+<strong>Please fill in where applicable before making a purchase</strong>
+<br>
+<br>
+<input 
+type="text" required id="na" onkeyup="sync()" placeholder="SteamID or Username" style="width: 50%">
+
+<br>
+<input type="text" id="da" value="" placeholder="Discount Code" style="width: 50%" onkeyup="discount()">
+<input type="hidden" id="db" value="2017" >
+<input type="hidden" id="dc" value="40">
+
+<td><label id="dlabel2" style="visibility:hidden"> Discount has been applied</label>
+
+</tr></table>
+<div>
+<input type="checkbox" id="terms" name="terms">
+<label for="terms">I agree to the <a href="home.html#tc">terms and conditions</a></label>
+</div>
+									
+<hr>
+<header class="major"><h2>Ranks</h2></header>
+<p>All ranks are valid for the lifetime of the server.</p>
+<table rules="all"  style="font-size: 18px">
+    <tr>
+        <td width="5%"></td>
+        <td align="center" width="19%"><b>Donor</b></th>
+        <td align="center" width="19%"><b>VIP</b></th>
+        <td align="center" width="19%"><b>VIP+</b></th>
+        <td align="center" width="19%"><b>VIP++</b></th>
+        <td align="center" width="19%"><b>VIP Gold</b></th>
+    </tr>
+    <tr>
+        <th>Tag</th>
+        <td align="center"><font color="#ff8200">[Donor]</font></td>
+        <td align="center"><font color="#ff9700">[VIP]</font></td>
+        <td align="center"><font color="#ffad00">[VIP+]</font></td>
+        <td align="center"><font color="#ffc200">[VIP++]</font></td>
+        <td align="center"><font color="#ffd700">[VIP Gold]</font></td>
+    </tr>
+    <tr>
+        <th>Kits</th>
+        <td align="center">/kit donor <br />(24hr cd)</td>
+        <td align="center">/kit vip <br />(12hr cd)</td>
+        <td align="center">/kit vip+ <br />(10hr cd)</td>
+        <td align="center">/kit vip++ <br />(8hr cd)</td>
+        <td align="center">/kit vipgold <br />(6hr cd)</td>
+    </tr>
+    <tr>
+        <th>Bgrade</th>
+        <td align="center">/bgrade 1 <br />(wood)</td>
+        <td align="center">/bgrade 2 <br />(stone and below)</td>
+        <td align="center">/bgrade 3 <br />(metal and below)</td>
+        <td align="center">/bgrade 4 <br />(hq metal and below)</td>
+        <td align="center">/bgrade 4 <br />(hq metal and below + no upgrade resoruces)</td>
+    </tr>
+    <tr>
+        <th>Heli <br> (/callheli)</th>
+        <td align="center"><font color="green">&#10004;</font><br />1 per day</td>
+        <td align="center"><font color="green">&#10004;</font><br />2 per day <br>3 hour cooldown</td>
+        <td align="center"><font color="green">&#10004;</font><br />3 per day <br>2 hour cooldown</td>
+        <td align="center"><font color="green">&#10004;</font><br />4 per day <br>1 hour cooldown</td>
+        <td align="center"><font color="green">&#10004;</font><br />5 per day <br>30 minute cooldown</td>
+    </tr>
+    <tr>
+        <th>Images to Signs <br />(/sil url)</th>
+        <td align="center"><font color="#e14141">&#10005;</font></td>
+        <td align="center"><font color="#e14141">&#10005;</font></td>
+        <td align="center"><font color="green">&#10004;</font></td>
+        <td align="center"><font color="green">&#10004;</font><br />(no cooldown)</td>
+        <td align="center"><font color="green">&#10004;</font><br />(upload direct files from computer)</td>
+    </tr>
+    <tr>
+        <th>Workshop Item Skins<br />(/ws)</th>
+        <td align="center"><font color="#e14141">&#10005;</font></td>
+        <td align="center"><font color="#e14141">&#10005;</font></td>
+        <td align="center"><font color="#e14141">&#10005;</font></td>
+        <td align="center"><font color="green">&#10004;</font></td>
+        <td align="center"><font color="green">&#10004;</font></td>
+    </tr>
+    <tr>
+        <th>AutoRepair</th>
+        <td align="center"><font color="#e14141">&#10005;</font></td>
+        <td align="center"><font color="#e14141">&#10005;</font></td>
+        <td align="center"><font color="#e14141">&#10005;</font></td>
+        <td align="center"><font color="#e14141">&#10005;</font></td>   
+        <td align="center"><font color="green">&#10004;</font></td>     
+    </tr>
+    <tr>
+        <th>Cost</th>
+        <td align="center">$20</td>
+        <td align="center">$40</td>
+        <td align="center">$50</td>
+        <td align="center">$60</td>
+        <td align="center">$80</td>
+    </tr>
+    <tr>
+        <td align="center"><br>Hide Tag: <br>
+<div>
+<input type="radio" id="yes" name="a">
+<label for="yes">Yes</label>
+
+<br />
+
+<input type="radio" id="no" name="a" checked>
+<label for="no">No</label>
+</div></td>
+        <td align="center" valign="bottom"><br>
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="business" value="KMZXB7C9GBV84">
+<input type="hidden" name="lc" value="AU">
+<input type="hidden" name="item_name" value="Donor Rank">
+<input type="hidden" name="amount" value="20">
+<input type="hidden" name="button_subtype" value="products">
+<input type="hidden" name="currency_code" value="AUD">
+<input type="hidden" name="add" value="1">
+<input type="hidden" name="discount_rate" value="" id="d1a">
+<input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHosted">
+<input type="hidden" name="on1" value="UN/ID">
+<input type="hidden" name="os1" id="n1a" maxlength="200">
+<input type="hidden" name="on0" value="Hide Tag">
+<input type="hidden" name="os0" id="r1" value="no">
+<button class="button1" style="width:90%; height:8em" name="submit" alt="PayPal � The safer, easier way to pay online.">Add to Cart</button>
+</form>
+</td>
+        <td align="center"><br>
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="business" value="KMZXB7C9GBV84">
+<input type="hidden" name="lc" value="AU">
+<input type="hidden" name="item_name" value="VIP Rank">
+<input type="hidden" name="amount" value="40">
+<input type="hidden" name="button_subtype" value="products">
+<input type="hidden" name="currency_code" value="AUD">
+<input type="hidden" name="add" value="1">
+<input type="hidden" name="discount_rate" value="" id="d1b">
+<input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHosted">
+<input type="hidden" name="on1" value="UN/ID">
+<input type="hidden" name="os1" id="n1b" maxlength="200">
+<input type="hidden" name="on0" value="Hide Tag">
+<input type="hidden" name="os0" id="r2" value="no">
+<button class="button1" style="width:90%; height:8em" name="submit" alt="PayPal � The safer, easier way to pay online.">Add to Cart</button>
+</form></td>
+        <td align="center"><br>
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="business" value="KMZXB7C9GBV84">
+<input type="hidden" name="lc" value="AU">
+<input type="hidden" name="item_name" value="VIP+ Rank">
+<input type="hidden" name="amount" value="50">
+<input type="hidden" name="button_subtype" value="products">
+<input type="hidden" name="currency_code" value="AUD">
+<input type="hidden" name="add" value="1">
+<input type="hidden" name="discount_rate" value="" id="d1c">
+<input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHosted">
+<input type="hidden" name="on1" value="UN/ID">
+<input type="hidden" name="os1" id="n1c" maxlength="200">
+<input type="hidden" name="on0" value="Hide Tag">
+<input type="hidden" name="os0" id="r3" value="no">
+<button class="button1" style="width:90%; height:8em" name="submit" alt="PayPal � The safer, easier way to pay online.">Add to Cart</button>
+</form></td>
+        <td align="center"><br>
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="business" value="KMZXB7C9GBV84">
+<input type="hidden" name="lc" value="AU">
+<input type="hidden" name="item_name" value="VIP++ Rank">
+<input type="hidden" name="amount" value="60">
+<input type="hidden" name="button_subtype" value="products">
+<input type="hidden" name="currency_code" value="AUD">
+<input type="hidden" name="add" value="1">
+<input type="hidden" name="discount_rate" value="" id="d1d">
+<input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHosted">
+<input type="hidden" name="on1" value="UN/ID">
+<input type="hidden" name="os1" id="n1d" maxlength="200">
+<input type="hidden" name="on0" value="Hide Tag">
+<input type="hidden" name="os0" id="r4" value="no">
+<button class="button1" style="width:90%; height:8em" name="submit" alt="PayPal � The safer, easier way to pay online.">Add to Cart</button>
+</form></td>
+        <td align="center"><br>
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="business" value="KMZXB7C9GBV84">
+<input type="hidden" name="lc" value="AU">
+<input type="hidden" name="item_name" value="VIP Gold Rank">
+<input type="hidden" name="amount" value="80">
+<input type="hidden" name="button_subtype" value="products">
+<input type="hidden" name="currency_code" value="AUD">
+<input type="hidden" name="add" value="1">
+<input type="hidden" name="discount_rate" value="" id="d1e">
+<input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHosted">
+<input type="hidden" name="on1" value="UN/ID">
+<input type="hidden" name="os1" id="n1e" maxlength="200">
+<input type="hidden" name="on0" value="Hide Tag">
+<input type="hidden" name="os0" id="r5" value="no">
+<button class="button1" style="width:90%; height:8em" name="submit" alt="PayPal � The safer, easier way to pay online.">Add to Cart</button>
+</form></td>
+    </tr>
+</table>
+<br>
+
+<header class="major"><h2>Resources</h2></header>
+		$3 - 100k x sulfur<br />
+		$3 - 100k x charcoal<br />
+		$3 - 100k x cloth<br />
+		$3 - 100k x animal fat<br />
+		$3 - 250k x stones<br />
+		$3 - 250k x wood<br />
+		$3 - 250k x metal fragments<br />
+		​$3 - 75k ​x high quality metal<br>
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="business" value="KMZXB7C9GBV84">
+<input type="hidden" name="lc" value="AU" id="c1a">
+<input type="hidden" name="item_name" value="Resources">
+<input type="hidden" name="button_subtype" value="products">
+<input type="hidden" name="currency_code" value="AUD" id="c1b">
+<input type="hidden" name="add" value="1">
+<input type="hidden" name="discount_rate" value="" id="d2">
+<input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHosted">
+
+<input type="hidden" name="on0" value="Select"><i>Select:</i><select name="os0" style="width: 50%">
+	<option value="100k sulfur">100k sulfur | $3.00 </option>
+	<option value="100k charcoal">100k charcoal | $3.00 </option>
+	<option value="100k cloth">100k cloth | $3.00 </option>
+	<option value="100k animal fat">100k animal fat | $3.00 </option>
+	<option value="250k stones">250 stones | $3.00 </option>
+	<option value="250k metal fragments">250k metal fragments | $3.00 </option>
+	<option value="75k high quality metal">75k high quality metal | $3.00 </option>
+</select> 
+<input type="hidden" name="on1" value="UN/ID"><input type="hidden" name="os1" id="n2" maxlength="200">
+
+
+<input type="hidden" name="option_select0" value="100k sulfur">
+<input type="hidden" name="option_amount0" value="3.00">
+<input type="hidden" name="option_select1" value="100k charcoal">
+<input type="hidden" name="option_amount1" value="3.00">
+<input type="hidden" name="option_select2" value="100k cloth">
+<input type="hidden" name="option_amount2" value="3.00">
+<input type="hidden" name="option_select3" value="100k animal fat">
+<input type="hidden" name="option_amount3" value="3.00">
+<input type="hidden" name="option_select4" value="250k stones">
+<input type="hidden" name="option_amount4" value="3.00">
+<input type="hidden" name="option_select5" value="250k metal fragments">
+<input type="hidden" name="option_amount5" value="3.00">
+<input type="hidden" name="option_select6" value="75k high quality metal">
+<input type="hidden" name="option_amount6" value="3.00">
+<input type="hidden" name="option_index" value="0"><br>
+<button style="width: 50%; height: 5em" name="submit" alt="PayPal — The safer, easier way to pay online.">Add to Cart</button>
+</form>
+
+							</p>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; RustTech.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="js/jquery.min.js"></script>
+			<script src="js/jquery.scrollex.min.js"></script>
+			<script src="js/jquery.scrolly.min.js"></script>
+			<script src="js/skel.min.js"></script>
+			<script src="js/util.js"></script>
+			<!--[if lte IE 8]><script src="js/ie/respond.min.js"></script><![endif]-->
+			<script src="js/main2.js"></script>
+
+<script>
+function discount()
+{
+ var da = document.getElementById('da');
+ var db = document.getElementById('db');
+ var dc = document.getElementById('dc');
+ var d1a = document.getElementById('d1a');
+ var d1b = document.getElementById('d1b');
+ var d1c = document.getElementById('d1c');
+ var d1d = document.getElementById('d1d');
+ var d1e = document.getElementById('d1e');
+ var d2 = document.getElementById('d2');
+ var d3 = document.getElementById('d3');
+ var d4 = document.getElementById('d4');
+ var d5 = document.getElementById('d5');
+ if (da.value == db.value) {
+    document.getElementById("dlabel2").style.visibility = "visible";
+    document.getElementById("da").disabled = true;
+    document.getElementById("da").style.border = "solid #41e169";
+    d1a.value = dc.value;
+    d1b.value = dc.value;
+    d1c.value = dc.value;
+    d1d.value = dc.value;
+    d1e.value = dc.value;
+    d2.value = dc.value;
+    d3.value = dc.value;
+    d4.value = dc.value;
+    d5.value = dc.value;
+ } else {
+ document.getElementById("da").style.border = "solid #e14141";
+}
+}
+</script>
+<script>
+function sync()
+{
+  var na = document.getElementById('na');
+  var n1a = document.getElementById('n1a');
+  var n1b = document.getElementById('n1b');
+  var n1c = document.getElementById('n1c');
+  var n1d = document.getElementById('n1d');
+  var n1e = document.getElementById('n1e');
+  var n2 = document.getElementById('n2');
+  var n3 = document.getElementById('n3');
+  var n4 = document.getElementById('n4');
+  var n5 = document.getElementById('n5');
+  n1a.value = na.value;
+  n1b.value = na.value;
+  n1c.value = na.value;
+  n1d.value = na.value;
+  n1e.value = na.value;
+  n2.value = na.value;
+  n3.value = na.value;
+  n4.value = na.value;
+  n5.value = na.value;
+}
+</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/minicart/3.0.6/minicart.min.js"></script>
+<script>
+    paypal.minicart.render({
+    strings: {
+        subtotal: "Total:"
+	
+    }
+});
+        paypal.minicart.cart.on('checkout', function (evt) {
+            var hasAgreed = !!document.getElementById('terms').checked;
+            if (!hasAgreed) {
+                alert('You must agree to the terms and conditions!');
+				evt.preventDefault();
+            }
+        });
+		paypal.minicart.cart.on('add', function (idx, product, isExisting) {
+			if (!product.get('os1')) {
+				this.remove(idx);
+				alert('Please enter IGN or SteamID');
+			}
+		});
+</script>
+
+	</body>
+</html>

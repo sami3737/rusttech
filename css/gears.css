@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Source+Sans+Pro');
+
+
+* {
+  box-sizing: border-box;
+}
+
+.title {
+  position: absoulte;
+  top: 0;
+ left: 0;
+  right: 0;
+  margin: auto;
+  height: 300px;
+  font-family: Orbitron;
+  text-align: center;
+  color: #333;
+  font-size: 9em;
+
+ animation: floating-text 2s ease alternate infinite;}
+
+
+.subtitle {
+  position: absolute;
+  top: 100%;
+ left: 0;
+  right: 0;
+  margin: auto;
+  height: 300px;
+  font-family: Orbitron;
+  text-align: center;
+  color: #333;
+  font-size: 4em;
+ text-shadow: 0 0 0.5em rgba(255, 255, 255, 0.4), 0 0 0.2em rgba(0, 0, 0, 0.3), 0 0.3em 0.2em rgba(0, 0, 0, 0.3);
+ opacity: 0; transition: opacity 0.8s ease-in-out; animation: floating-text 2s ease alternate infinite;}
+
+
+.titles {position: fixed; top: 60%; left: 0; right:0; margin: auto; height: 12em}
+
+.footer {position: fixed; top: 96%; left: 0; right: 0; bottom: ; margin: auto; height: 2em; text-align: center; width: 100%; font-family: 'Source Sans Pro', sans-serif; font-size: 0.8em;}
+
+.container {
+  width: 30em;
+  height: 30em;
+  margin: auto;
+  position: fixed;
+  top: 10%;
+
+ left: 0;
+  right: 0; 
+}
+
+
+
+@media screen and (max-height: 768px) {
+	.container {font-size: 12px; top: 10%}
+	.titles {font-size: 12px; top: 73%;}	
+	.subtitle {visibility: hidden;}
+
+}
+
+@keyframes floating-text {
+  0% {
+    transform: translateY(0.1em);
+    text-shadow: 0 0 0.5em rgba(255, 255, 255, 0.4), 0 0 0.2em rgba(0, 0, 0, 0.3), 0 0.3em 0.2em rgba(0, 0, 0, 0.3);
+  }
+  100% {
+    text-shadow: 0 0 0.5em rgba(255, 255, 255, 0.4), 0 0 0.2em rgba(0, 0, 0, 0.3), 0 0.5em 0.5em rgba(0, 0, 0, 0.3);
+  }
+}
+
+
+@keyframes fade {
+  
+0% {
+    background: #e14141 }
+  
+4% {
+    background: #e16941 }
+  
+8% {
+    background: #e19141 }
+  
+13% {
+    background: #e1b941 }
+  
+17% {
+    background: #e1e141 }
+  
+21% {
+    background: 
+#b9e141 }
+  
+25% {
+    background: #91e141 }
+  
+29% {
+    background: #69e141 }
+  
+33% {
+    background: #41e141 }
+  
+38% {
+    background: #41e169 }
+  
+42% {
+    background: #41e191 }
+  
+46% {
+    background: #41e1b9 }
+  
+50% {
+    background: #41e1e1 }
+  
+54% {
+    background: #41b9e1 }
+  
+58% {
+    background: #4191e1 }
+  
+63% {
+    background: #4169e1 }
+  
+67% {
+    background: #4141e1 }
+  
+71% {
+    background: #6941e1 }
+  
+75% {
+    background: #9141e1 }
+  
+79% {
+    background: #b941e1 }
+  
+83% {
+    background: #e141e1 }
+  
+88% {
+    background: #e141b9 }
+  
+92% {
+    background: #e14191 }
+  
+96% {
+    background: #e14169 }
+  
+100% {
+    background: #e14141 }
+}
+
+
+@keyframes fade2 {
+0% {
+    background: #41e1e1 }
+  
+4% {
+    background: #41b9e1 }
+  
+8% {
+    background: #4191e1 }
+  
+13% {
+    background: #4169e1 }
+  
+17% {
+    background: #4141e1 }
+  
+21% {
+    background: #6941e1 }
+  
+25% {
+    background: #9141e1 }
+  
+29% {
+    background: #b941e1 }
+  
+33% {
+    background: #e141e1 }
+  
+38% {
+    background: #e141b9 }
+  
+42% {
+    background: #e14191 }
+  
+46% {
+    background: #e14169 }
+  
+50% {
+    background: #e14141 }  
+54% {
+    background: #e16941 }
+  
+58% {
+    background: #e19141 }
+  
+63% {
+    background: #e1b941 }
+  
+67% {
+    background: #e1e141 }
+  
+71% {
+    background: 
+#b9e141 }
+  
+75% {
+    background: #91e141 }
+  
+79% {
+    background: #69e141 }
+  
+83% {
+    background: #41e141 }
+  
+88% {
+    background: #41e169 }
+  
+92% {
+    background: #41e191 }
+  
+96% {
+    background: #41e1b9 }
+ 
+100% {
+    background: #41e1e1 }
+   
+}
+
+
+body {
+  animation: fade 30s ease infinite;
+}
+
+.bigwheel {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #333333;
+  border-radius: 50%;
+  animation: bigwheel 2s linear infinite;
+}
+
+@keyframes bigwheel {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+
+.tooth3 {
+  width: 5.625%;
+  height: 91.25%;
+  background: #41b9e1;
+  position: absolute;
+  top: 4.375%;
+  left: 47.1875%;
+ animation: fade 30s ease infinite;
+}
+
+.tooth3:nth-child(odd) {
+  height: 85%;
+  top: 7.5%;
+}
+.tooth3:nth-child(1) {
+  transform: rotate(5.625deg);
+}
+
+.tooth3:nth-child(2) {
+  transform: rotate(11.25deg);
+}
+.tooth3:nth-child(3) {
+  transform: rotate(16.875deg);
+}
+
+.tooth3:nth-child(4) {
+  transform: rotate(22.5deg);
+}
+
+.tooth3:nth-child(5) {
+  transform: rotate(28.125deg);
+}
+
+.tooth3:nth-child(6) {
+  transform: rotate(33.75deg);
+}
+
+.tooth3:nth-child(7) {
+  transform: rotate(39.375deg);
+}
+
+.tooth3:nth-child(8) {
+  transform: rotate(45deg);
+}
+
+.tooth3:nth-child(9) {
+  transform: rotate(50.625deg);
+}
+
+.tooth3:nth-child(10) {
+  transform: rotate(56.25deg);
+}
+
+.tooth3:nth-child(11) {
+  transform: rotate(61.875deg);
+}
+
+.tooth3:nth-child(12) {
+  transform: rotate(67.5deg);
+}
+
+.tooth3:nth-child(13) {
+  transform: rotate(73.125deg);
+}
+
+.tooth3:nth-child(14) {
+  transform: rotate(78.75deg);
+}
+
+.tooth3:nth-child(15) {
+  transform: rotate(84.375deg);
+}
+
+.tooth3:nth-child(16) {
+  transform: rotate(90deg);
+}
+
+.tooth3:nth-child(17) {
+  transform: rotate(95.625deg);
+}
+
+.tooth3:nth-child(18) {
+  transform: rotate(101.25deg);
+}
+
+.tooth3:nth-child(19) {
+  transform: rotate(106.875deg);
+}
+
+.tooth3:nth-child(20) {
+  transform: rotate(112.5deg);
+}
+
+.tooth3:nth-child(21) {
+  transform: rotate(118.125deg);
+}
+
+.tooth3:nth-child(22) {
+  transform: rotate(123.75deg);
+}
+
+.tooth3:nth-child(23) {
+  transform: rotate(129.375deg);
+}
+
+.tooth3:nth-child(24) {
+  transform: rotate(135deg);
+}
+
+.tooth3:nth-child(25) {
+  transform: rotate(140.625deg);
+}
+
+.tooth3:nth-child(26) {
+  transform: rotate(146.25deg);
+}
+
+.tooth3:nth-child(27) {
+  transform: rotate(151.875deg);
+}
+
+.tooth3:nth-child(28) {
+  transform: rotate(157.5deg);
+}
+
+.tooth3:nth-child(29) {
+  transform: rotate(163.125deg);
+}
+
+.tooth3:nth-child(30) {
+  transform: rotate(168.75deg);
+}
+
+.tooth3:nth-child(31) {
+  transform: rotate(174.375deg);
+}
+
+.gears {
+  position: relative;
+  width: 88.75%;
+  height: 88.75%;
+  left: 5.625%;
+  top: 5.625%;
+}
+
+.gear {
+  width: 35.21%;
+  height: 35.21%;
+  position: absolute;
+  animation: gear 2s linear infinite;
+}
+
+.gear:nth-child(1) {
+  top: 0;
+  left: 32.39%;
+}
+
+.gear:nth-child(2) {
+  top: 32.39%;
+  left: 32.39%;
+  transform: rotate(22deg);
+  animation: gear2 2s linear infinite;
+}
+
+.gear:nth-child(3) {
+  left: 32.39%;
+  top: 64.788732%;
+}
+
+.gear:nth-child(4) {
+  left: 0;
+  top: 32.39%;
+}
+
+.gear:nth-child(5) {
+  left: 64.788732%;
+  top: 32.39%;
+}
+
+.teeth {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.tooth {
+  position: absolute;
+  left: 42%;
+  width: 16%;
+  height: 100%;
+  background-color: #333333;
+}
+
+.tooth:nth-child(1) {
+  transform: rotate(22.5deg);
+}
+
+.tooth:nth-child(2) {
+  transform: rotate(45deg);
+}
+
+.tooth:nth-child(3) {  
+transform: rotate(67.5deg);
+}
+
+.tooth:nth-child(4) {
+  transform: rotate(90deg);
+}
+
+.tooth:nth-child(5) {
+  transform: rotate(112.5deg);
+}
+
+.tooth:nth-child(6) {
+  transform: rotate(135deg);
+}
+
+.tooth:nth-child(7) {
+  transform: rotate(157.5deg);
+}
+
+.tooth:nth-child(8) {
+  transform: rotate(180deg);
+}
+
+.tooth:nth-child(9) {
+  transform: rotate(202.5deg);
+}
+
+.tooth:nth-child(10) {
+  transform: rotate(225deg);
+}
+
+.tooth:nth-child(11) {
+  transform: rotate(247.5deg);
+}
+
+.tooth:nth-child(12) {
+  transform: rotate(270deg);
+}
+
+.tooth:nth-child(13) {
+  transform: rotate(292.5deg);
+}
+
+.tooth:nth-child(14) {
+  transform: rotate(315deg);
+}
+
+.tooth:nth-child(15) {
+  transform: rotate(337.5deg);
+}
+
+.tooth:nth-child(odd) {
+  top: 10%;
+  height: 80%;
+}
+
+@keyframes gear {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes gear2 {
+  from {
+    transform: rotate(22deg);
+  }
+  to {
+    transform: rotate(-338deg);
+  }
+}
+
+.center {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  background-color: #41b9e1;
+  width: 60%;
+  height: 60%;
+  border-radius: 50%; animation: fade 30s ease infinite;
+
+}
+
+
+.logo {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+  z-index: 1000;
+  content: url(../images/rust-white.png);
+  transform: rotate(-20deg);
+ transition: 1s ease;}
+.logo:hover { transition: 1s ease; opacity: 0.1; }
+

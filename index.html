@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>RustTech</title>
+ <link rel="stylesheet" href="css/globalmain.css">
+ <link rel="icon" type="image/png" href="images/favicon-white.png"></link>
+</head>
+
+<body>
+ 
+<button onclick="document.getElementById('myAudio').play()" ondblclick="document.getElementById('myAudio').pause()" style="position: fixed; right: 0px; bottom: 0px; background: transparent; width: 100%; height: 100%; border: none;"></button>
+<audio class='audio' id="myAudio" autoplay autobuffer='autobuffer' source type='audio/mpeg' src='songs/alone2.m4a'></audio>
+
+<div class="container">
+  
+<div class="bigwheel">
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+   
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+    
+<div class="tooth3"></div>
+  
+</div>  
+  
+<div class="gears">
+    
+<div class="gear">
+      
+<div class="teeth">
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+      
+</div>
+      
+<div class="center"></div>
+    
+</div>
+    
+<div class="gear">
+      
+<div class="teeth">
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+       
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+      
+</div>
+      
+<a class = "logo" href="steam://connect/rusttech.net:28015 " onmouseover="mouseOverLogo()" onmouseout="mouseOut()"></a>   
+</div>
+    
+<div class="gear">
+     
+<div class="teeth">
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+       
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+      
+</div>
+      
+<div class="center"></div>
+    
+</div>
+    
+<div class="gear">
+      
+<div class="teeth">
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+      
+</div>
+      
+<div class="center"></div>
+   
+</div>
+    
+<div class="gear">
+      
+<div class="teeth">
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+        
+<div class="tooth"></div>
+      
+</div>
+      
+<div class="center"></div>
+    
+</div>
+  
+</div>
+    
+
+     <a href="store.php" class="icon icon-coin-dollar pos1" onmouseover="mouseOverStore()" onmouseout="mouseOut()"></a>
+     <a href="http://steamcommunity.com/groups/rusttech" class="icon icon-steam pos4" onmouseover="mouseOverSteam()" onmouseout="mouseOut()"></a>
+     <a href="home.html" class="icon icon-home pos3" onmouseover="mouseOverHome()" onmouseout="mouseOut()"></a>
+
+     <a href="http://playrust.io/map/?rusttech.net:28015" class="icon icon-compass2 pos2" onmouseover="mouseOverMap()" onmouseout="mouseOut()"></a>
+
+</div>
+
+
+<div class="titles">
+<h1 class="title">RustTech</h1>
+
+
+<h2 class="subtitle" id="map">Live Map</h1>
+<h2 class="subtitle" id="home">Home Page</h1>
+<h2 class="subtitle" id="steam">Steam Group</h1>
+<h2 class="subtitle" id="store">Store</h1>
+<h2 class="subtitle" id="logo">Connect to Server</h1>
+</div>
+<script>
+function mouseOverMap() {
+	document.getElementById("map").style.opacity = 1;
+}
+function mouseOverLogo() {
+	document.getElementById("logo").style.opacity = 1;
+}
+function mouseOverHome() {
+	document.getElementById("home").style.opacity = 1;
+}
+function mouseOverSteam() {
+	document.getElementById("steam").style.opacity = 1;
+}
+function mouseOverStore() {
+	document.getElementById("store").style.opacity = 1;
+}
+
+function mouseOut() {
+	document.getElementById("map").style.opacity = 0;
+	document.getElementById("home").style.opacity = 0;
+	document.getElementById("steam").style.opacity = 0;
+	document.getElementById("store").style.opacity = 0;
+	document.getElementById("logo").style.opacity = 0;
+}
+</script>
+<div class="footer"><span>&copy; RustTech.</span></div>
+</button>
+</body>
+</html>
+
