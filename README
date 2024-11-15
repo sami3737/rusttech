@@ -14,7 +14,7 @@ Les utilisateurs on accès à une boutique en lien directe avec le jeu.
 - [Outils](#outils)
 - [Auteurs](#auteurs)
 - [Licence](#Licence)
-  [Link Text](#anchor-name)
+
 ### Prérequis
 
   -[MySQL](https://www.mysql.com/)
@@ -30,7 +30,7 @@ Les utilisateurs on accès à une boutique en lien directe avec le jeu.
 ## Outils
 
   *Notepad++
-         <a name="anchor-name">r</a>
+
 ## Auteurs
 * **Samuel Boutin** _alias_ [@sami3737](https://github.com/sami3737)
 
