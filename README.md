@@ -18,8 +18,12 @@ Les utilisateurs on accès à une boutique en lien directe avec le jeu.
 ### Prérequis
 
   -[MySQL](https://www.mysql.com/)
+  
   -[PHP7](https://www.php.net/releases/index.php)
+  
   -[Apache](https://httpd.apache.org/)
+
+  -[PayPal](https://www.paypal.com)
 
 ### Installation
 
