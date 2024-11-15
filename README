@@ -1,6 +1,6 @@
 # RustTech
 
-## À propos
+## <a name="about">À propos</a>
 
 RustTech est un webshop créer en 2017.
 Les adminitrateurs de serveurs privés ont la possibilité connecter leur site à leur serveur Rust.
@@ -8,7 +8,7 @@ Les utilisateurs on accès à une boutique en lien directe avec le jeu.
 
 ## Table des matières
 
-- [À propos](#à-propos)
+- [À propos](#about)
 - [Prérequis](#prérequis)
 - [Installation](#installation)
 - [Outils](#outils)
