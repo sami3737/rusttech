@@ -13,7 +13,7 @@ Les utilisateurs on accès à une boutique en lien directe avec le jeu.
 - [Installation](#installation)
 - [Outils](#outils)
 - [Auteurs](#auteurs)
-- [Licence](#licence)
+- [Licence](#Licence)
   
 ### Prérequis
 
@@ -34,6 +34,6 @@ Les utilisateurs on accès à une boutique en lien directe avec le jeu.
 ## Auteurs
 * **Samuel Boutin** _alias_ [@sami3737](https://github.com/sami3737)
 
-## licence
+## Licence
 
 Ce projet est sous licence ``MIT License`` - voir le fichier [LICENSE](LICENCE.md) pour plus d'informations
