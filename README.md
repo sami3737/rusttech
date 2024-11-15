@@ -28,7 +28,9 @@ Les utilisateurs on accès à une boutique en lien directe avec le jeu.
 ### Installation
 
 -Installer et configurer votre serveur Apache ou faite votre propre installation MySQL/PHP.
+
 -Installer les bases de données fourni depuis le dossier "install".
+
 -Configurer les fichiers en suivant les instructions du fichier install/readme.txt
 
 ## Outils
