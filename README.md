@@ -42,4 +42,4 @@ Les utilisateurs on accès à une boutique en lien directe avec le jeu.
 
 ## Licence
 
-Ce projet est sous licence ``MIT License`` - voir le fichier [LICENSE](LICENCE.md) pour plus d'informations
+Ce projet est sous licence ``MIT License`` - voir le fichier [LICENSE](LICENSE.md) pour plus d'informations
