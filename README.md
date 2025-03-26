@@ -14,6 +14,7 @@ Les utilisateurs ont accès à une boutique en lien direct avec le jeu.
 - [Outils](#outils)
 - [Auteurs](#auteurs)
 - [Licence](#licence)
+- [Preview](#preview)
 
 ## Prérequis
 
@@ -43,7 +44,6 @@ Avant d’installer RustTech, assurez-vous d’avoir :
 
 Ce projet est sous licence **MIT License** - voir le fichier [LICENSE](LICENSE.md) pour plus d'informations.
 
----
-
-Si vous avez des questions ou des suggestions, n’hésitez pas à me contacter ! 😊
+## Preview
+[RustTech](http://sami3737.free.nf/rusttech-main/)
 
